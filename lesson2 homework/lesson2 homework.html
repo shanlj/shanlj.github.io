@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>浑河堡教会小组报告单</title>
+    <link rel="stylesheet" href="lesson2 homework.css" type="text/css" media="all">
+ </head>
+ <style>
+     * {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* body{
+        font-family: "华文行楷"; 
+        font-size: 18px;
+        font-weight: normal;
+        letter-spacing: px;
+        background: #f0f0f0;
+       
+    } */
+
+    body {background-image:url(01.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;}
+
+    .head {
+        font-family: SimSun-ExtB;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 12px;
+        font-style: normal;
+        letter-spacing: 3px;
+        color: #888;
+        border-bottom: 3px solid #f0f0f0;
+        padding-bottom: 10px;
+        margin-bottom: 10px;
+    }  
+    /* text-transform：取值
+    none：无转换
+    capitalize：将每个单词的第一个字母转换成大写
+    uppercase：将每个单词转换成大写
+    lowercase：将每个单词转换成小写
+    full-width：将所有字符转换成fullwidth形式。如果字符没有相应的fullwidth形式，
+    将保留原样。这个值通常用于排版拉丁字符和数字等表意符号。（CSS3） */
+    /* font-weight 设置文本粗细  */
+    /* border-bottom 设置下边框的样式： */
+    
+    .head a {
+        color: rgb(10, 168, 168);
+        text-decoration: none;
+        float: right;
+        text-shadow: 1px 1px 1px rgb(245, 52, 52);
+    }
+
+     #content {
+        background-color: #fff;
+        width:750px;
+        padding: 40px;
+        margin: 0 auto;
+        border-left: 30px solid #1D81B6;
+        border-right: 1px solid #ddd;
+        -moz-box-shadow: 0px 0px 16px #aaa;
+    }
+
+    #content h4 {
+        font-family: "微软雅黑", sans-serif;
+        color: #1D81B6;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 36px;
+        text-shadow: 2px 2px 2px rgb(105, 81, 77);
+    }
+ 
+ </style>
+
+<body>
+       
+    <div id="content">
+            <a class="back" href=""></a>
+            <span class="scroll"></span>
+            <p class="head">
+                Hunhepu Church
+                <a href="http://www.hunhepu.com/" target="_blank">教会网址</a>
+            </p>
+
+            <h4 align="center">浑河堡基督教会小组周报表</h4>
+
+   <table class="table" border="2"  align="center" bordercolor="blue" style="border-collapse: collapse;">     
+   <thead>
+        <tr>
+            <th>组长姓名</th>
+            <td width="70px"><input type="text" name="name" style="border:0px;outline:none;width:80px;"  value="请输入姓名" /></td>
+            <th width="90px">接待家庭</th>
+            <td ><input type="text" name="name" style="border:0px;outline:none;width:80px;" value="请输入姓名" /></td>
+            <th>报表日期</th>
+            <td><input type="date"></td>
+        </tr>
+   
+        <tr>
+            <td>司会</td><td><input type="text" name="name" style="border:0px;outline:none;width:80px;"   value="请输入姓名" /></td>
+            <td>领诗</td><td><input type="text" name="name" style="border:0px;outline:none;width:80px;"  value="请输入姓名" /></td>
+            <td>分享<input type="text" name="name"style="border:0px;outline:none;width:80px;"  value="  请输入姓名" /></td>
+            <td>代祷 <input type="text" name="name" style="border:0px;outline:none;width:80px;"  value="请输入姓名" /></td>
+        </tr>
+        <tr>
+            <td colspan="2">出席：
+            <input type="number" class="nan" max="5" min="0" style="font-size:10px;width:20px;" ng-model="ns">男
+            <input type="number" class="nan" max="5" min="0" style="font-size:10px;width:20px;" ng-model="ns">女</td>
+            <td colspan="2">合计:<input type="number"  max="20" min="0" style="font-size:10px;width:100px;"></td>
+            <td>缺席：
+            <input type="number" class="nan" max="5" min="0" style="font-size:10px;width:20px;" ng-model="ns">男
+            <input type="number" class="nan" max="5" min="0" style="font-size:10px;width:20px;" ng-model="ns">女</td>
+            <td colspan="2">合计:<input type="number"  max="20" min="0" style="font-size:10px;width:100px;"></td>
+        </tr>
+        <tr>
+            <td>主日经文</td>
+            <td colspan="2"><input type="text" name="name" style="border:0px;outline:none;width:85px" value="请输入经文" /></td>
+            <td>讲道题目</td>
+            <td colspan="2"><input type="text" style="border:0px;outline:none;width:220px" value="请输入内容"> 
+            </td>
+            </tr>
+        <tr>
+            <td>组员姓名</td>
+            <td colspan="4">组员分享、主日和小组缺席原因、特殊祷告题目、探访、
+            新家族认领、服侍情况、外来访需要教会支持事、合理化建议等，有什么就写什么。
+        </td>
+            <td>胎信徒代祷</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><input type="text" style="border:0px;outline:none;border:0px;outline:none;margin-top:6px;margin-bottom:6px;width:80px" value=""></td>
+            <td colspan="4"> <input name="" type="text" size="60" style="border:0px;outline:none;"/> </td>
+            <td><input type="text" style="border:0px;outline:none;" size="20" value=""></td>
+        </tr>
+        <tr>
+            <td><input type="text" style="border:0px;outline:none;border:0px;outline:none;margin-top:6px;margin-bottom:6px;width:80px" value=""></td>
+            <td colspan="4"> <input name="" type="text" size="60" style="border:0px;outline:none;"/> </td>
+            <td><input type="text" style="border:0px;outline:none;" size="20" value=""></td>
+        </tr>
+        <tr>
+            <td><input type="text" style="border:0px;outline:none;border:0px;outline:none;margin-top:6px;margin-bottom:6px;width:80px" value=""></td>
+            <td colspan="4"> <input name="" type="text" size="60" style="border:0px;outline:none;"/> </td>
+            <td><input type="text" style="border:0px;outline:none;" size="20" value=""></td>
+        </tr>
+        <tr>
+            <td><input type="text" style="border:0px;outline:none;border:0px;outline:none;margin-top:6px;margin-bottom:6px;width:80px" value=""></td>
+            <td colspan="4"> <input name="" type="text" size="60" style="border:0px;outline:none;"/> </td>
+            <td><input type="text" style="border:0px;outline:none;" size="20" value=""></td>
+        </tr>
+        <tr>
+            <td><input type="text" style="border:0px;outline:none;border:0px;outline:none;margin-top:6px;margin-bottom:6px;width:80px" value=""></td>
+            <td colspan="4"> <input name="" type="text" size="60" style="border:0px;outline:none;"/> </td>
+            <td><input type="text" style="border:0px;outline:none;" size="20" value=""></td>
+        </tr>
+        <tr>
+            <td><input type="text" style="border:0px;outline:none;border:0px;outline:none;margin-top:6px;margin-bottom:6px;width:80px" value=""></td>
+            <td colspan="4"> <input name="" type="text" size="60" style="border:0px;outline:none;"/> </td>
+            <td><input type="text" style="border:0px;outline:none;" size="20" value=""></td>
+        </tr>
+        <tr>
+            <td><input type="text" style="border:0px;outline:none;border:0px;outline:none;margin-top:6px;margin-bottom:6px;width:80px" value=""></td>
+            <td colspan="4"> <input name="" type="text" size="60" style="border:0px;outline:none;"/> </td>
+            <td><input type="text" style="border:0px;outline:none;" size="20" value=""></td>
+        </tr>
+        <tr>
+            <td><input type="text" style="border:0px;outline:none;border:0px;outline:none;margin-top:6px;margin-bottom:6px;width:80px" value=""></td>
+            <td colspan="4"> <input name="" type="text" size="60" style="border:0px;outline:none;"/> </td>
+            <td><input type="text" style="border:0px;outline:none;" size="20" value=""></td>
+        </tr>
+        <tr>
+            <td><input type="text" style="border:0px;outline:none;border:0px;outline:none;margin-top:6px;margin-bottom:6px;width:80px" value=""></td>
+            <td colspan="4"> <input name="" type="text" size="60" style="border:0px;outline:none;"/> </td>
+            <td><input type="text" style="border:0px;outline:none;" size="20" value=""></td>
+        </tr>
+        <tr>
+            <td><input type="text" style="border:0px;outline:none;border:0px;outline:none;margin-top:6px;margin-bottom:6px;width:80px" value=""></td>
+            <td colspan="4"> <input name="" type="text" size="60" style="border:0px;outline:none;"/> </td>
+            <td><input type="text" style="border:0px;outline:none;" size="20" value=""></td>
+        </tr>
+        <tr>
+            <td><input type="text" style="border:0px;outline:none;border:0px;outline:none;margin-top:6px;margin-bottom:6px;width:80px" value=""></td>
+            <td colspan="4"> <input name="" type="text" size="60" style="border:0px;outline:none;"/> </td>
+            <td><input type="text" style="border:0px;outline:none;" size="20" value=""></td>
+        </tr>                       
+</tbody>
+
+<tfoot>
+        <tr>
+            <td width="90px">落户胎信徒</td><td colspan="4">
+            <input name="" type="text" size="40" style="border:0px;outline:none;"/></td>
+        <td><input type="text" style="border:0px;outline:none;" size="20" value=""></td>
+        </tr>
+
+        <tr>
+        <td>减员原因</td>
+        <td colspan="6">
+            <label><input name="" type="checkbox" value=""style="margin-top:10px;margin-bottom:10px;"/>搬家 </label>
+             &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+             <label><input name="" type="checkbox" value="" style="margin-top:10px;margin-bottom:10px;"/>回天家</label> 
+             &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+             <label><input name="" type="checkbox" value="" style="margin-top:10px;margin-bottom:10px;"/>异端邪教</label> 
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <label><input name="" type="checkbox" value="" style="margin-top:10px;margin-bottom:10px;"/>人际关系</label>
+            &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+            <label><input name="" type="checkbox" value="" style="margin-top:10px;margin-bottom:10px;"/>其他原因</label>
+        </td>
+        </tr>
+        <tr>
+            <td colspan="7">分区长签名 
+                <input type="text" style="border:0px;outline:none;margin-top:6px;margin-bottom:6px;" size="23" value="">
+                日期
+                <input type="date">
+                备注
+                <input type="text" style="border:0px;outline:none;margin-top:6px;margin-bottom:6px;" size="30">
+        </tr>
+            
+        <tr>
+            <td colspan="7">区牧签名 
+                <input type="text" style="border:0px;outline:none;margin-top:6px;margin-bottom:6px;" size="25" value="">
+                日期
+                <input type="date">
+                备注
+                <input type="text" style="border:0px;outline:none;margin-top:6px;margin-bottom:6px;" size="30">
+            </td>
+        </tr>
+        <tr>
+                <td colspan="7">总区牧签名 
+                        <input type="text" style="border:0px;outline:none;margin-top:6px;margin-bottom:6px;" size="23" value="">
+                        日期
+                        <input type="date">
+                        备注
+                        <input type="text" style="border:0px;outline:none;margin-top:6px;margin-bottom:6px;" size="30">
+                </td>
+        </tr>
+    <tr>
+            <td colspan="7">主任牧师签名 
+                <input type="text" style="border:0px;outline:none;margin-top:6px;margin-bottom:6px;" size="21" value="">
+                日期
+                <input type="date">
+                备注
+                <input type="text" style="border:0px;outline:none;margin-top:6px;margin-bottom:6px;" size="30">
+            </td>
+        </tr>
+    </tfoot>
+</table>
+
+</div>
+
+</body>
+</html>

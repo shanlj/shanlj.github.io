@@ -1,0 +1,13 @@
+table.table{
+  font-family: "华文行楷";
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.4em;
+  font-style: normal;
+  border-collapse:separate;
+}
+.table {
+  color: rgb(46, 44, 44);
+  background-color: rgba(0, 204, 153, 0.103);
+}
+.table input{background-color:transparent}
