@@ -1,33 +1,403 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="no-js">
+<!-- BEGIN HEAD -->
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>单立军</title>
+    <meta charset="utf-8" />
+    <title>小单儿个人主页</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+
+    <!-- GLOBAL MANDATORY STYLES -->
+    <!--link href="http://fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet" type="text/css"-->
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css" />
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- PAGE LEVEL PLUGIN STYLES -->
+    <link href="css/animate.css" rel="stylesheet">
+
+    <!-- THEME STYLES -->
+    <link href="css/layout.min.css" rel="stylesheet" type="text/css" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" />
 </head>
-<body style="background-color:rgb(34, 0, 128);">
-    <h1 style="color:white;"><b>自我介绍</b></h1>
-    <hr>
-    <h2 style="color:rgba(255, 255, 255, 0.95);">基本信息</h2>
-    <p style="color:rgba(255, 255, 255, 0.76);"><strong>姓名：</strong>单立军</p>
-    <strong style="color:rgba(255, 255, 255, 0.76);">性别：<strong style="color:rgba(255, 255, 255, 0.76);">女</style></p>
-    <b style="color:rgba(255, 255, 255, 0.76);">年龄:</b> 31</p>
-    <h2 style="color:rgba(255, 255, 255, 0.95);">兴趣爱好</h2>
-    <p style="color:rgba(255, 255, 255, 0.76);">吃饭<sup>ing</sup>睡觉<sub>ing</sub></p>
-    <h3 srong style="color:rgba(255, 255, 255, 0.76);"><i>打豆豆</i></srong><b>ing</b></h3>
-    <hr>
-    <p style="color:rgba(255, 255, 255, 0.95);"><strong>家庭成员:</strong>老公、女儿<sup>and</sup>我
-    <p style="color:rgba(255, 255, 255, 0.95);"><strong>我的信仰:</strong>我是一名基督徒，我来自浑河堡教会
-    <img border="0" src="F:\tup\浑河堡教会.png" alt="Pulpit rock" width="25" height="25"></p>
-    <hr>
-    <h2 style="color:rgba(255, 255, 255, 0.89);">信仰相关</h2>
-    <p>
-        <a href="http://www.hunhepu.org/">教会网址</a>
-        <a href="http://faith.im/">信仰头条</a>
-        <a href="http://www.hunhepu.org/qt">灵修</a> 
-        <a href="F:\KuGou\你的爱不离不弃.mp3">赞美</a></p>
-        <audio id="audioPlay" src="F:\KuGou\盛晓玫 脚步.mp3" autoplay="autoplay" loop="loop" controls="controls">&nbsp;</audio>
-    </p>
-    </body>
+<!-- END HEAD -->
+
+<!-- BODY -->
+
+<body id="body" data-spy="scroll" data-target=".header">
+
+    <!--========== HEADER ==========-->
+    <header class="header navbar-fixed-top">
+        <!-- Navbar -->
+        <nav class="navbar" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="menu-container js_nav-item">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="toggle-icon"></span>
+                        </button>
+
+                    <!-- Logo -->
+                    <div class="logo">
+                        <a class="logo-wrap" href="#body">
+                            <img class="logo-img logo-img-main" src="img/logo.png" alt="Asentus Logo">
+                            <img class="logo-img logo-img-active" src="img/elijah-logo-fish.png" alt="Asentus Logo">
+                        </a>
+                    </div>
+                    <!-- End Logo -->
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse nav-collapse">
+                    <div class="menu-container">
+                        <ul class="nav navbar-nav navbar-nav-right">
+                            <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#body">主页</a></li>
+                            <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#about">关于</a></li>
+                            <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#experience">经验</a></li>
+                            <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#work">生活</a></li>
+                            <li class="js_nav-item nav-item"><a class="nav-item-child nav-item-hover" href="#contact">联系</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- End Navbar Collapse -->
+            </div>
+        </nav>
+        <!-- Navbar -->
+    </header>
+    <!--========== END HEADER ==========-->
+
+    <!--========== SLIDER ==========-->
+    <div class="promo-block parallax-window" data-parallax="scroll" data-image-src="img/1920x1080/01.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="promo-block-divider">
+                        <h1 class="promo-block-title">小单儿<br/> </h1>
+                        <p class="promo-block-text">高级人力资源管理师 &amp; Excel爱好者</p>
+                    </div>
+                    <ul class="list-inline" style="display:none">
+                        <li><a href="#" class="social-icons"><i class="icon-social-facebook"></i></a></li>
+                        <li><a href="#" class="social-icons"><i class="icon-social-twitter"></i></a></li>
+                        <li><a href="#" class="social-icons"><i class="icon-social-dribbble"></i></a></li>
+                        <li><a href="#" class="social-icons"><i class="icon-social-behance"></i></a></li>
+                        <li><a href="#" class="social-icons"><i class="icon-social-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <!--// end row -->
+        </div>
+    </div>
+    <!--========== SLIDER ==========-->
+
+    <!--========== PAGE LAYOUT ==========-->
+    <!-- About -->
+    <div id="about">
+        <div class="container content-lg">
+            <div class="row">
+                <div class="col-sm-3 sm-margin-b-30">
+                    <div class="text-right sm-text-left">
+                        <h2 class="margin-b-0">自我介绍</h2>
+                          <p>因为喜欢,所以热爱</p>
+                    </div>
+                </div>
+                <div class="col-sm-8 col-sm-offset-1">
+                    <div class="margin-b-60">
+                        <p>大家好，我叫小单儿，我是《基督徒》，来自浑河堡教会四川牧区。</p>
+                        <p>即将毕业10年，我以前做过物流业的仓储和快递、做过保险业的销售、做过通信业人事行政&业务核算等，
+                            目前在某职业卫生与安全技术咨询公司，做商务工作。过去的10年虽然做过很多事儿，但遗憾的是自己
+                            并不是很喜欢；感谢来自上帝的恩典；现在终于有幸做一点自己一直想做的事儿，也感谢两位老师，
+                            希望接下来我会有一个不一样的10年！
+                        </p>
+                    </div>
+
+                    <!-- Progress Box -->
+                    <div class="progress-box">
+                        <h5>物流业<span class="color-heading pull-right">3~4年</span></h5>
+                        <div class="progress">
+                            <div class="progress-bar bg-color-base" role="progressbar" data-width="35"></div>
+                        </div>
+                    </div>
+                    <div class="progress-box">
+                        <h5>保险业<span class="color-heading pull-right">1~2年</span></h5>
+                        <div class="progress">
+                            <div class="progress-bar bg-color-base" role="progressbar" data-width="20"></div>
+                        </div>
+                    </div>
+                    <div class="progress-box">
+                        <h5>通信业<span class="color-heading pull-right">4年</span></h5>
+                        <div class="progress">
+                            <div class="progress-bar bg-color-base" role="progressbar" data-width="40"></div>
+                        </div>
+                    </div>
+                    <div class="progress-box">
+                        <h5>技术咨询<span class="color-heading pull-right">目前</span></h5>
+                        <div class="progress">
+                            <div class="progress-bar bg-color-base" role="progressbar" data-width="100"></div>
+                        </div>
+                    </div>
+                    <!-- End Progress Box -->
+                </div>
+            </div>
+            <!--// end row -->
+        </div>
+    </div>
+    <!-- End About -->
+
+    <!-- Experience -->
+    <div id="experience">
+        <div class="bg-color-sky-light" data-auto-height="true">
+            <div class="container content-lg">
+                <div class="row">
+                    <div class="col-sm-3 sm-margin-b-30">
+                        <div class="text-right sm-text-left">
+                            <h2 class="margin-b-0">个人主要技能</h2>
+                            <p>在学习中成长</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-sm-offset-1">
+                        <div class="row row-space-2 margin-b-4">
+                            <div class="col-md-4 md-margin-b-4">
+                                <div class="service" data-height="height">
+                                    <div class="service-element">
+                                        <i class="service-icon icon-chemistry"></i>
+                                    </div>
+                                    <div class="service-info">
+                                        <h3>EXCEL函数与公式资深爱好者</h3>
+                                        <p class="margin-b-5">4年前，在工作中同事向我请教个关于Excel问题，当时我觉得很有趣就百度了一下，没想到真的找的了解决办法，从此便开始了的踏上了Excel学习探索与实践的慢慢路程。。。。。</p>
+                                    </div>
+                                    <a href="#" class="content-wrapper-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-md-4 md-margin-b-4">
+                                <div class="service bg-color-base wow zoomIn" data-height="height" data-wow-duration=".3" data-wow-delay=".1s">
+                                    <div class="service-element">
+                                        <i class="service-icon color-white icon-screen-tablet"></i>
+                                    </div>
+                                    <div class="service-info">
+                                        <h3 class="color-white">Photoshop</h3>
+                                        <p class="color-white margin-b-5">这个技术，我是5年前开始接触的，全靠自学，比起大师来我算不上会，但小打小闹修个图片还是可以滴。</p>
+                                    </div>
+                                    <a href="#" class="content-wrapper-link"></a>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="service" data-height="height">
+                                    <div class="service-element">
+                                        <i class="service-icon icon-badge"></i>
+                                    </div>
+                                    <div class="service-info">
+                                        <h3>网站前端开发</h3>
+                                        <p class="margin-b-5">目前正在学习当中，感谢以利亚实验室老师的鼎力支持，是你们的培训和引导才能使我快速上道儿。。。。。。</p>
+                                    </div>
+                                    <a href="#" class="content-wrapper-link"></a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--// end row -->
+                    </div>
+                </div>
+                <!--// end row -->
+            </div>
+        </div>
+    </div>
+    <!-- End Experience -->
+    <div class="copyrights"> <a href="http://www.cssmoban.com/">ElijahLab</a></div>
+    <!-- Work -->
+    <div id="work">
+        <div class="container content-lg">
+            <div class="row">
+                <div class="col-sm-3 sm-margin-b-30">
+                    <div class="text-right sm-text-left">
+                        <h2 class="margin-b-0">我的大家&小家</h2>
+                        <p>恩典之家&幸福之家</p>
+                    </div>
+                </div>
+                <div class="col-sm-8 col-sm-offset-1">
+                    <!-- Masonry Grid -->
+                    <div class="masonry-grid row row-space-2">
+                        <div class="masonry-grid-sizer col-xs-6 col-sm-6 col-md-1"></div>
+                        <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-8 margin-b-4">
+                            <!-- Work -->
+                            <div class="work work-popup-trigger">
+                                <div class="work-overlay">
+                                    <img class="full-width img-responsive" src="img/800x400/01.jpg" alt="Portfolio Image">
+                                </div>
+                            </div> 
+                            <!-- End Work -->
+                        </div>
+                        <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-4">
+                            <!-- Work -->
+                            <div class="work work-popup-trigger">
+                                <div class="work-overlay">
+                                    <img class="full-width img-responsive" src="img/397x400/01.jpg" alt="Portfolio Image">
+                                </div>
+                            </div>
+                            <!-- End Work -->
+                        </div>
+                        <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4">
+                            <!-- Work -->
+                            <div class="work work-popup-trigger">
+                                <div class="work-overlay">
+                                    <img class="full-width img-responsive" src="img/397x300/01.jpg" alt="Portfolio Image">
+                                </div>
+                            </div>
+                            <!-- End Work -->
+                        </div>
+                        <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 md-margin-b-4">
+                            <!-- Work -->
+                            <div class="work work-popup-trigger">
+                                <div class="work-overlay">
+                                    <img class="full-width img-responsive" src="img/397x300/02.jpg" alt="Portfolio Image">
+                                </div>
+                            </div>
+                            <!-- End Work -->
+                        </div>
+                        <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4">
+                            <!-- Work -->
+                            <div class="work work-popup-trigger">
+                                <div class="work-overlay">
+                                    <img class="full-width img-responsive" src="img/397x300/03.jpg" alt="Portfolio Image">
+                                </div>
+                            </div> 
+                            <!-- End Work -->
+                        </div>
+                        <div class="masonry-grid-item col-xs-12 col-sm-6 col-md-4 margin-b-4">
+                                <!-- Work -->
+                                <div class="work work-popup-trigger">
+                                    <div class="work-overlay">
+                                        <img class="full-width img-responsive" src="img/397x300/04.jpg" alt="Portfolio Image">
+                                    </div>
+                                </div>
+                                <!-- End Work -->
+                        </div>
+                                 
+                    </div> 
+                    <!-- End Masonry Grid -->
+                </div> 
+            </div> 
+            <!--// end row -->
+        </div>   
+    </div>  
+    <!-- End Work -->
+
+    <!-- Contact -->
+    <div id="contact">
+        <div class="bg-color-sky-light">
+            <div class="container content-lg">
+                <div class="row">
+                    <div class="col-sm-3 sm-margin-b-30">
+                        <div class="text-right sm-text-left">
+                            <h2 class="margin-b-0">联系方式</h2>
+                            <p>call me</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-sm-offset-1">
+                        <div class="row">
+                            <div class="col-md-3 col-xs-6 md-margin-b-30">
+                                <h5>地址</h5>
+                                <a href="#">沈阳浑南</a>
+                            </div>
+                            <div class="col-md-3 col-xs-6 md-margin-b-30">
+                                <h5>手机</h5>
+                                <a href="#">15940485100</a>
+                            </div>
+                            <div class="col-md-3 col-xs-6">
+                                <h5>电子邮件</h5>
+                                <a href="mailto:#">644283064@qq.com</a>
+                            </div>
+                            <div class="col-md-3 col-xs-6">
+                                <h5>个人主页</h5>
+                                <a href="#">https://shanlj.github.io</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--// end row -->
+            </div>
+        </div>
+    </div>
+    <!-- End Contact -->
+    <!--========== END PAGE LAYOUT ==========-->
+
+    <!--========== FOOTER ==========-->
+    <footer class="footer">
+        <div class="content container">
+            <div class="row">
+                <div class="col-xs-6">
+                    <img class="footer-logo" src="img/elijah-logo-fish.png" alt="Aircv Logo">
+                </div>
+                <div class="col-xs-6 text-right sm-text-left">
+                    <p class="margin-b-0"> 这个我的个人主页---<a href="http://www.shanlj.github.io/" title="" target="_blank">个人主页</a></p>
+                </div>
+            </div>
+            <!--// end row -->
+        </div>
+    </footer>
+    <!--========== END FOOTER ==========-->
+
+    <!-- Back To Top -->
+    <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
+
+    <!-- JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+    <!-- CORE PLUGINS -->
+    <script src="vendor/jquery.min.js" type="text/javascript"></script>
+    <script src="vendor/jquery-migrate.min.js" type="text/javascript"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+
+    <!-- PAGE LEVEL PLUGINS -->
+    <script src="vendor/jquery.easing.js" type="text/javascript"></script>
+    <script src="vendor/jquery.back-to-top.js" type="text/javascript"></script>
+    <script src="vendor/jquery.smooth-scroll.js" type="text/javascript"></script>
+    <script src="vendor/jquery.wow.min.js" type="text/javascript"></script>
+    <script src="vendor/jquery.parallax.min.js" type="text/javascript"></script>
+    <script src="vendor/jquery.appear.js" type="text/javascript"></script>
+    <script src="vendor/masonry/jquery.masonry.pkgd.min.js" type="text/javascript"></script>
+    <script src="vendor/masonry/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+
+    <!-- PAGE LEVEL SCRIPTS -->
+    <script src="js/layout.min.js" type="text/javascript"></script>
+    <script src="js/components/progress-bar.min.js" type="text/javascript"></script>
+    <script src="js/components/masonry.min.js" type="text/javascript"></script>
+    <script src="js/components/wow.min.js" type="text/javascript"></script>
+     
+    <!--百度分享-->
+    <script>  
+            window._bd_share_config = {  
+                "common": {  
+                    "bdSnsKey": {},  
+                    "bdText": "",  
+                    "bdMini": "2",  
+                    "bdMiniList": false,  
+                    "bdPic": "",  
+                    "bdStyle": "0",  
+                    "bdSize": "16"  
+                },  
+                "slide": {  
+                    "type": "slide",  
+                    "bdImg": "1",  
+                    "bdPos": "right",  
+                    "bdTop": "20.5"  
+                },  
+                "image": {  
+                    "viewList": ["qzone", "tsina", "tqq", "renren", "weixin"],  
+                    "viewText": "分享到：",  
+                    "viewSize": "16"  
+                },  
+                "selectShare": {  
+                    "bdContainerClass": null,  
+                    "bdSelectMiniList": ["qzone", "tsina", "tqq", "renren", "weixin"]  
+                }  
+            };  
+            with(document) 0[(getElementsByTagName('head')[0] || body).appendChild(createElement('script')).src = 'http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion=' + ~(-new Date() / 36e5)];  
+        </script>  
+        <!--百度分享-->
+
+</body>
+<!-- END BODY -->
+
 </html>
